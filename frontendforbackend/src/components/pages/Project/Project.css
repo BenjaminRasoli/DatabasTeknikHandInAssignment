@@ -1,0 +1,44 @@
+.project-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.project-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.project-desc {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.project-manager-email {
+  font-size: 14px;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.project-manager-name {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.project-status {
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+}

@@ -1,0 +1,27 @@
+.uploadWrapper {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.uploadForm {
+  padding-top: 20px;
+  max-width: 300px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}

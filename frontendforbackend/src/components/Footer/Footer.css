@@ -1,0 +1,41 @@
+.footer {
+  background-color: black;
+  padding: 35px 0;
+  text-align: center;
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.footer-links {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links li a:hover {
+  transition: 0.3s;
+  color: grey;
+}
